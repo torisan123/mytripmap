@@ -1,11 +1,12 @@
 import './App.css';
-import Map from './Map';
+import Header from './components/Header';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <div>
-      <h1>MyTripMapへようこそ！</h1>
-      <Map />
+      <Header />
+      <Layout />
     </div>
   );
 }
